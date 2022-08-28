@@ -1,0 +1,18 @@
+{
+  "name": "crossfitapi",
+  "version": "1.0.0",
+  "description": "An API for Cross fit exercise for creating, editing, updating and deleting a work out arranged in days",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ekene Ugwuanyi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
