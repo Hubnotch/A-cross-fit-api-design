@@ -9,5 +9,5 @@ app.use('/api/v1/workouts', v1workoutRoutes)
 
 const PORT  = 3000 || process.env.PORT
 app.listen(PORT, ()=>{
-    console.log(`Serve running on localhost:${PORT}`)
+    console.log(`Serve running on http://localhost:${PORT}`)
 })
